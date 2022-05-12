@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>New Page</title>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" type="text/css" href="./assets/css/main.css">
+  <link href="./assets/css/main.css" type="text/css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+  </link>
+  <link href="./assets/css/main.css" rel="stylesheet" type="text-css" />
+  <script src="./assets/js/jquery-3.6.0.min.js"></script>
+  <script src="./assets/js/owl.carousel.min.js"></script>
+  <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="./assets/js/aos.js"></script>
+  <script src="./assets/js/main.js"></script>
+  <link rel="stylesheet" href="./assets/css/normalize.min.css">
+  <link rel="stylesheet" href="./assets/css/aos.css">
+</head>
+
+<body>
+  <header id="headerChange">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll navPlace gap-3 pt-3 pb-3"
+            style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#">HOME</a>
+              <hr class="hrTransp" />
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#">MY APAS</a>
+              <hr class="hrTransp" />
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#">HONORARY</a>
+              <hr class="hrTransp" />
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" id="navbarScrollingDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                MARKETS
+              </a>
+              <ul class="dropdown-menu openNavLine" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item text-white" href="#">APA</a></li>
+                <li><a class="dropdown-item text-white" href="#">APA COLLECTIONS</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" id="navbarScrollingDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                EVENTS
+              </a>
+              <ul class="dropdown-menu openNavLine" aria-labelledby="navbarScrollingDropdown">
+                <li class="d-none"><a class="dropdown-item text-white" href="#">MANSION</a></li>
+                <li class="d-none"><a class="dropdown-item text-white" href="#">ADVENT</a></li>
+                <li class="d-none"><a class="dropdown-item text-white" href="#">AUCTION</a></li>
+                <li class="d-none"><a class="dropdown-item text-white" href="#">CHARITY</a></li>
+                <li><a class="dropdown-item text-white" href="#">COMİNG SOON</a></li>
+              </ul>
+            </li>
+            <li>
+              <button class="connect">CONNECT</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 position-relative">
+          <div class="logoArea">
+            <img class="logo" src="./assets/img/openbutton.png" alt="">
+          </div>
+        </div>
+        <div class="goDwonButton">
+          <a href="#imagetextSection">
+            <img id="upDownIcon" src="./assets/img/icon/goDown.svg" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="buttonOff changeBgB"></div>
+    <div class="center">
+      <h1 class="horror-text">Open The Light</h1>
+    </div>
+    <div>
+      <div class="arrowHood">
+        <img src="./assets/img/arrowHood.svg" alt="">
+      </div>
+    </div>
+
+  </header>
+  <section class="loadPage">
+    <div class="position-relative h-100">
+      <div class="containe-fluid position-relative">
+        <div class="row">
+          <div class="col-12 h100vh">
+            <button id="getStart" class="startSnack">LET'S GETS SOME SNACKS</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="soldOut">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="soldOutMainArea">
+            <div class="soldOutTextArea ">
+              <p data-aos="fade-up">You don't want to miss out, join the party while you can</p>
+              <p data-aos="fade-up">10000 / 10000 ALREADY JOINED</p>
+            </div>
+            <div class="increaseReduce d-flex justify-content-center gap-3 align-items-center" data-aos="fade-up">
+              <button class="minusImage" onclick="eksiFunc()">-</button>
+              <button id="sayiButton">0</button>
+              <button class="plusImage" onclick="artiFunc()">+</button>
+              <div>
+                <input type="button" id="changeImage" value="Sold Out" />
+              </div>
+            </div>
+            <div class="littleText mt-3" data-aos="fade-up">
+              <p>The remaining ones are for airdroppers!</p>
+            </div>
+            <div id="resimler"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="imagetextSection" class="imageText">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-2">
+          <div class="col-12" data-aos="zoom-in">
+            <div class="image-gallery">
+              <div class="image-gallery-item">
+                <img class="imageIcon" src="./assets/img/apa_4.a2e107ce.png"
+                  data-zoom-target="./assets/img/apa_4.a2e107ce.png" data-zoom />
+              </div>
+            </div>
+          </div>
+          <div class="col-12" data-aos="zoom-in">
+            <div class="image-gallery">
+              <div class="image-gallery-item">
+                <img class="imageIcon" src="./assets/img/apa_7.911fd46a.png"
+                  data-zoom-target="./assets/img/apa_7.911fd46a.png" data-zoom />
+              </div>
+            </div>
+          </div>
+          <div class="col-12" data-aos="zoom-in">
+            <div class="image-gallery">
+              <div class="image-gallery-item">
+                <img class="imageIcon" src="./assets/img/apa_9.0c6a95b2.png"
+                  data-zoom-target="./assets/img/apa_9.0c6a95b2.png" data-zoom />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-8">
+          <div class="col-12">
+            <p class="imageTextHood" data-aos="fade-up">WELCOME TO THE APA</p>
+          </div>
+          <div class="col-12">
+            <div class="textArea" data-aos="fade-right">
+              <p><span>Avalanche Party Animals</span>
+                is a collection of 10,000 unique, NFTs, who are breaking the dance floor on the Avalanche Blockchain and
+                can’t wait to finally enter the Party Animals Mansion. APA are based on the unofficial Avalanche mascot,
+                Wolfie. We hope to bring it to its rightful place as the official mascot and by doing so, also bring
+                recognition to the platform.
+                <br><br>
+                Each Party Animal is hand-drawn by our talented artist and is randomly generated from numerous of
+                assets.
+                All of them are unique, but some are simply legendary. You can check the Rarity Ranking & Distribution
+                below for the details!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="col-4" data-aos="zoom-in">
+            <div class="image-gallery">
+              <div class="image-gallery-item">
+                <img class="imageIcon" src="./assets/img/apa_1.aff7c00c.png"
+                  data-zoom-target="./assets/img/apa_1.aff7c00c.png" data-zoom />
+              </div>
+            </div>
+          </div>
+          <div class="col-4" data-aos="zoom-in">
+            <div class="image-gallery">
+              <div class="image-gallery-item">
+                <img class="imageIcon" src="./assets/img/apa_2.e598f0c1.png"
+                  data-zoom-target="./assets/img/apa_2.e598f0c1.png" data-zoom />
+              </div>
+            </div>
+          </div>
+          <div class="col-4" data-aos="zoom-in">
+            <div class="image-gallery">
+              <div class="image-gallery-item">
+                <img class="imageIcon" src="./assets/img/apa_3.55570e9b.png"
+                  data-zoom-target="./assets/img/apa_3.55570e9b.png" data-zoom />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sliderOWL">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 p-0" data-aos="fade-left">
+          <div class="carousel-wrap">
+            <div class="owl-carousel owl-carouselOne owl-theme">
+              <div><img class="imgSliderProperty" src="./assets/img/61b12b1f05f56645d3b83868_image 15.png"></div>
+              <div><img class="imgSliderProperty" src="./assets/img/61b12b1f0618f9e78534a434_image 22.png"></div>
+              <div><img class="imgSliderProperty" src="./assets/img/61b12b1f19e201605c104e8e_image 62.png"></div>
+              <div><img class="imgSliderProperty" src="./assets/img/61b12b1f2144ceb91b42e137_image 13.png"></div>
+              <div><img class="imgSliderProperty" src="./assets/img/61b12b1f3866df2b2172b8c9_image 19.png"></div>
+              <div><img class="imgSliderProperty" src="./assets/img/61b12b1f55a20304f7a6f264_image 16.png"></div>
+              <div><img class="imgSliderProperty" src="./assets/img/61b12b1f55a91d0bda1eabe7_image 64.png"></div>
+              <div><img class="imgSliderProperty" src="./assets/img/61b12b1f59c289e7018ee635_image 21.png"></div>
+              <div><img class="imgSliderProperty" src="./assets/img/61b12b1f65147691502b763a_image 65.png"></div>
+              <div><img class="imgSliderProperty" src="./assets/img/61b12b1f7d9775b44a11e9ff_image 18.png"></div>
+              <div><img class="imgSliderProperty" src="./assets/img/61b12b1f940d4012143cee08_image 17.png"></div>
+              <div><img class="imgSliderProperty" src="./assets/img/61b12b1f940d40ee593cee09_image 61.png"></div>
+              <div><img class="imgSliderProperty" src="./assets/img/61b12b1f96246eb318395796_image 66.png"></div>
+              <div><img class="imgSliderProperty" src="./assets/img/61b12b1f9adea62a68b6c119_image 12.png"></div>
+              <div><img class="imgSliderProperty" src="./assets/img/61b12b1facbbe5385a44bca4_image 63.png"></div>
+              <div><img class="imgSliderProperty" src="./assets/img/61b12b1fd176e62bee06adc0_image 23.png"></div>
+              <div><img class="imgSliderProperty" src="./assets/img/61b12b1fd176e6955706adbf_image 20.png"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 text-center d-block align-items-center mt-5">
+          <div>
+            <p class="sliderHood" data-aos="fade-up">THE COLLECTION</p>
+          </div>
+          <div class="t-webkit-center ">
+            <p class="sliderText" data-aos="fade-up"> 6.666 unique digital monster fellas
+              trying to blend with the normies
+              on the Polygon Blockchain.</p>
+          </div>
+        </div>
+        <div class="col-12 mt-5 p-0" data-aos="fade-right">
+          <div class="carousel-wrap">
+            <div class="owl-carousel owl-carouselTwo owl-theme">
+              <div><img class="imgSliderProperty" src="./assets/img/61b12b1fd176e6955706adbf_image 20.png"></div>
+              <div><img class="imgSliderProperty" src="./assets/img/61b12b1fd176e62bee06adc0_image 23.png"></div>
+              <div><img class="imgSliderProperty" src="./assets/img/61b12b1facbbe5385a44bca4_image 63.png"></div>
+              <div><img class="imgSliderProperty" src="./assets/img/61b12b1f9adea62a68b6c119_image 12.png"></div>
+              <div><img class="imgSliderProperty" src="./assets/img/61b12b1f96246eb318395796_image 66.png"></div>
+              <div><img class="imgSliderProperty" src="./assets/img/61b12b1f940d40ee593cee09_image 61.png"></div>
+              <div><img class="imgSliderProperty" src="./assets/img/61b12b1f940d4012143cee08_image 17.png"></div>
+              <div><img class="imgSliderProperty" src="./assets/img/61b12b1f7d9775b44a11e9ff_image 18.png"></div>
+              <div><img class="imgSliderProperty" src="./assets/img/61b12b1f65147691502b763a_image 65.png"></div>
+              <div><img class="imgSliderProperty" src="./assets/img/61b12b1f65147691502b763a_image 65.png"></div>
+              <div><img class="imgSliderProperty" src="./assets/img/61b12b1f59c289e7018ee635_image 21.png"></div>
+              <div><img class="imgSliderProperty" src="./assets/img/61b12b1f55a91d0bda1eabe7_image 64.png"></div>
+              <div><img class="imgSliderProperty" src="./assets/img/61b12b1f55a20304f7a6f264_image 16.png"></div>
+              <div><img class="imgSliderProperty" src="./assets/img/61b12b1f3866df2b2172b8c9_image 19.png"></div>
+              <div><img class="imgSliderProperty" src="./assets/img/61b12b1f2144ceb91b42e137_image 13.png"></div>
+              <div><img class="imgSliderProperty" src="./assets/img/61b12b1f19e201605c104e8e_image 62.png"></div>
+              <div><img class="imgSliderProperty" src="./assets/img/61b12b1f0618f9e78534a434_image 22.png"></div>
+              <div><img class="imgSliderProperty" src="./assets/img/61b12b1f05f56645d3b83868_image 15.png"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="teknoRoyal">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <div class="tekRoHood" data-aos="fade-up">
+            <video width="100%" height="100%" id="OracleVid" playsinline="playsinline" autoplay="autoplay" muted="muted"
+              loop="loop">
+              <source id="video" src="./assets/img/video/video.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="roadMap">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 p-0">
+          <div class="roadMapImage">
+            <div class="roadMapImageTwo"></div>
+          </div>
+          <button id="letSee" class="roadMapButton">LET SEE ALL ROAD MAP</button>
+          <img class="mantar mantarOne d-none " src="./assets/img/nokta mantar png.png" alt="">
+          <img class="mantar mantarTwo d-none" src="./assets/img/nokta mantar png.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="iconArea">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <p class="iconHood mt-5" data-aos="fade-up">TEAM</p>
+          <p class="iconText" data-aos="fade-up">
+            We are a team of 9 people living in different countries, who came together by the drive & vision of
+            partychad. We truly believe that Avalanche is the most revolutionary platform on the Blockchain meta and we
+            are here to deliver the best NFT project to the best blockchain.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <div class="imgTeamArea one">
+            <p class="teamNameCreative">Natoshi</p>
+            <img class="firstImageTeam " src="./assets/img/team/toprakOne.png" alt="">
+            <img class="secondImageTeam " src="./assets/img/team/toprakTwo.png" alt="">
+            <img class="ThirtImageTeam buke" src="./assets/img/team/bukalemun.png" alt="">
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="imgTeamArea two">
+            <p class="teamNameCreativeTwo">Natoshi</p>
+            <img class="firstImageTeam " src="./assets/img/team/toprakOne.png" alt="">
+            <img class="secondImageTeam " src="./assets/img/team/toprakTwo.png" alt="">
+            <img class="secondImageTeam kurb" src="./assets/img/team/kurbaga.png" alt="">
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="imgTeamArea three">
+            <p class="teamNameCreativeThree">Natoshi</p>
+            <img class="firstImageTeam" src="./assets/img/team/toprakOne.png" alt="">
+            <img class="secondImageTeam " src="./assets/img/team/toprakTwo.png" alt="">
+            <img class="secondImageTeam akk" src="./assets/img/team/akrep.png" alt="">
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="imgTeamArea four">
+            <p class="teamNameCreativeFour">Natoshi</p>
+            <img class="firstImageTeam " src="./assets/img/team/toprakOne.png" alt="">
+            <img class="secondImageTeam " src="./assets/img/team/toprakTwo.png" alt="">
+            <img class="secondImageTeam tar" src="./assets/img/team/tarantula.png" alt="">
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="imgTeamArea fife">
+            <p class="teamNameCreativeFive">Natoshi</p>
+            <img class="firstImageTeam " src="./assets/img/team/toprakOne.png" alt="">
+            <img class="secondImageTeam " src="./assets/img/team/toprakTwo.png" alt="">
+            <img class="secondImageTeam sol" src="./assets/img/team/solucan.png" alt="">
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="imgTeamArea six">
+            <p class="teamNameCreativeSix">Natoshi</p>
+            <img class="firstImageTeam " src="./assets/img/team/toprakOne.png" alt="">
+            <img class="secondImageTeam " src="./assets/img/team/toprakTwo.png" alt="">
+            <img class="secondImageTeam sal" src="./assets/img/team/salyangoz.png" alt="">
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="imgTeamArea seven">
+            <p class="teamNameCreativeSeven">Natoshi</p>
+            <img class="firstImageTeam " src="./assets/img/team/toprakOne.png" alt="">
+            <img class="secondImageTeam " src="./assets/img/team/toprakTwo.png" alt="">
+            <img class="secondImageTeam ciy" src="./assets/img/team/ciyan.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="faq">
+    <div class="container">
+      <div class="row popUpAreaCenter">
+        <div class="col-12">
+          <div class="popUpHood" data-aos="fade-up">
+            FREQUENTLY ASKED QUESTIONS
+          </div>
+          <div class="">
+            <div class="questionLine" data-aos="fade-right">
+              <a href="#" class="clickme waatHood">What the heck is this?</a>
+              <div class="box popUpText" style="display: none;">
+                Gowalla is a worldwide augmented reality social game that inspires you to explore. By joining
+                the waitlist today you’ll be among the first to have access when we launch.
+              </div>
+            </div>
+            <div class="questionLine" data-aos="fade-left">
+              <a href="#" class="clickme waatHood">For real tho?</a>
+              <div class="box popUpText" style="display: none;">
+                Oh yeah. Everyone enjoys a little nostalgia, right? Hard to believe that was a decade ago. If
+                you played Gowalla back when, this will seem a little familiar—it ain’t about checkins though.
+                We’re creating an entirely new experience along with one of the most advanced technology
+                platforms from the ground up. We simply could not have built this in ye olde social mobile days.
+              </div>
+            </div>
+            <div class="questionLine" data-aos="fade-right">
+              <a href="#" class="clickme waatHood">Aaand when does it launch?</a>
+              <div class="box popUpText" style="display: none;">
+                Gowalla beta for iOS will launch for a limited number of cities and members in summer 2021.
+                Gowalla will launch for the public later next year.
+                Want the earliest access and an opportunity to help curate the AR experience in your city? Join
+                the Gowalla Street Team. Street Team app and Discord invites will be sent in December 2020.
+              </div>
+            </div>
+            <div class="questionLine" data-aos="fade-left">
+              <a href="#" class="clickme waatHood">But what about the…</a>
+              <div class="box popUpText" style="display: none;">
+                Ugh, such a bummer. 2020 has been a hot mess in every way. Yet we’re so excited for people to
+                re-explore their cities, support local businesses, and honestly just leave their homes in
+                general.
+                That’s why we're aiming to launch Gowalla beta next year, in summer 2021. If you want to help
+                kickstart Gowalla in your city today (while you self-distance), consider joining the Street
+                Team.
+              </div>
+            </div>
+            <div class="questionLine" data-aos="fade-right">
+              <a href="#" class="clickme waatHood">Who’s building this?</a>
+              <div class="box popUpText" style="display: none;">
+                Gowalla is made by Josh Williams and Patrick Piemonte. And ultimately you. If you’d like to
+                learn how you can help in your city, join the waitlist and let us know which community you’d
+                like to be a part of.
+              </div>
+            </div>
+            <div class="questionLine" data-aos="fade-left">
+              <a href="#" class="clickme waatHood">Are you hiring?</a>
+              <div class="box popUpText" style="display: none;">
+                You bet we are. We’re looking for a few stellar engineers, computer vision and machine learning
+                experts, designers, 3D artists, and community support leads to join our founding team. Full time
+                and contract opportunities are available.
+                We’ll post more details soon. Until then, hit us up at jobs@gowalla.com. We are a remote-native
+                company.
+              </div>
+            </div>
+            <div class="questionLine" data-aos="fade-right">
+              <a href="#" class="clickme waatHood">Anything else?</a>
+              <div class="box popUpText" style="display: none;">
+                Yeah, Gowalla is incubated by Form Capital, a seed-stage fund founded by Bobby Goodlatte and
+                Josh Williams.
+                If you're building something epic that imagines a bright future for humanity, Form would like to
+                hear from you.
+              </div>
+            </div>
+            <div class="questionLine" data-aos="fade-left">
+              <a href="#" class="clickme waatHood">Who kills Prince Humperdinck?</a>
+              <div class="box popUpText" style="display: none;">
+                Nobody. Nobody kills him. He lives
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container footer">
+      <div class="col-12 pb-2 mt-2">
+        <div class="logoAreafooter">
+          <img src="./assets/img/openbutton.png" alt="">
+        </div>
+        <div class="d-flex justify-content-start">
+          <div class="socialMediaArea">
+            <a href="">
+              <img class="scoailmedia" src="./assets/img/instagram.svg" alt="">
+            </a>
+            <a href="">
+              <img class="scoailmedia" src="./assets/img/twitter.svg" alt="">
+            </a>
+            <a href="">
+              <img class="scoailmedia" src="./assets/img/discord.svg" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="text-end">
+          <p>APA Terms & Conditions</p>
+          <p>Avalanche Party Animals ©2022</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+</body>
+<script src="./assets/js/imageOption.js"></script>
+<script>
+
+
+  var resimlerArray = [
+    "./assets/img/1.png",
+    "./assets/img/2.png",
+    "./assets/img/3.png",
+    "./assets/img/4.png",
+    "./assets/img/5.png",
+    "./assets/img/6.png",
+    "./assets/img/7.png",
+    "./assets/img/8.png",
+    "./assets/img/9.png",
+    "./assets/img/10.png",
+  ];
+
+  var imageCount = 0;
+
+  var eksiFunc = () => {
+    if (imageCount > 0) {
+      var sayiButton = document.getElementById("sayiButton");
+      sayiButton.innerText = imageCount - 1;
+      var select = document.getElementById('resimler');
+      select.lastElementChild.remove();
+      imageCount = imageCount - 1;
+    }
+  }
+
+  var artiFunc = () => {
+
+    if (resimlerArray.length > imageCount) {
+      var sayiButton = document.getElementById("sayiButton");
+      sayiButton.innerText = imageCount + 1;
+      var img = document.createElement('img');
+      img.src = resimlerArray[imageCount];
+      document.getElementById('resimler').appendChild(img);
+      imageCount++;
+    }
+
+  }
+
+
+</script>
+
+</html>

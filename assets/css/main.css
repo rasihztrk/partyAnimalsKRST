@@ -1,0 +1,851 @@
+header {
+    background-image: url("../img/Adsız_Resim-97.jpg");
+    height: 100vh;
+    width: 100%;
+    /* background-size: 110% 110%; */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    -webkit-transition: all 2s ease-in;
+    -moz-transition: all 2s ease-in;
+    -o-transition: all 2s ease-in;
+    -ms-transition: all 2s ease-in;
+    transition: all 2s ease-in;
+    position: relative;
+
+}
+
+.headerChange {
+    background-image: url("../img/Başlıksız-2.gif");
+    height: 100vh;
+    width: 100%;
+    background-position: center top;
+    /* background-size: 110% 110%; */
+    background-repeat: no-repeat;
+    -webkit-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+    -ms-transition: all 1s ease-in;
+    transition: all 1s ease-in;
+    z-index: 1;
+}
+
+.buttonOff {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    bottom: 100px;
+    cursor: pointer;
+    left: 200px;
+}
+
+.arrowHood img {
+    width: 190px;
+    height: auto;
+    position: absolute;
+    bottom: 300px;
+    left: 330px;
+    transform: rotate(100deg);
+}
+
+
+.buttonOn {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    bottom: 100px;
+    cursor: pointer;
+    left: 200px;
+}
+
+.changeBgB {
+    height: 200px;
+    width: 220px;
+    cursor: pointer;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    margin-top: -70px;
+}
+
+.navPlace {
+    width: 100%;
+    text-align: right;
+    justify-content: right;
+}
+
+.openNavLine {
+    transition: all 0.3s ease 0s;
+    border: 1px solid rgb(59, 59, 59) !important;
+    background-color: #0c080b !important;
+    border-radius: 14px !important;
+}
+
+.connect {
+    background-color: red;
+    color: white;
+    position: relative;
+    appearance: none;
+    color: white;
+    padding: 4px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    background: rgb(210, 64, 52);
+    overflow: hidden;
+    transition: all 2s ease 0s;
+    outline: none;
+    margin-top: 5px;
+}
+
+.connect:hover {
+    background-color: rgb(126, 40, 32);
+}
+.nav-link {
+    font-size: 14px !important;
+    font-weight: 200;
+}
+
+.dropdown-item {
+    text-align: center !important;
+    font-size: 14px;
+    transition-duration: 3s;
+}
+
+.dropdown-item:hover {
+    background-color: #0c080b !important;
+}
+.line {
+    width: 0px;
+    background-color: red !important;
+    height: 3px !important;
+    opacity: 1;
+    margin: 0px !important;
+    border-radius: 25px;
+}
+
+
+.startSnack {
+    background-color: red;
+    color: white;
+    appearance: none;
+    color: white;
+    padding: 4px 50px;
+    font-size: 26px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    background: rgb(210, 64, 52);
+    overflow: hidden;
+    transition: all 2s ease 0s;
+    outline: none;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.h100vh{
+    height: 100vh;
+}
+
+.startSnack:hover {
+    background-color: rgb(126, 40, 32);
+}
+
+.hrTransp {
+    background-color: transparent;
+}
+
+.navbar-nav {
+    padding-bottom: 0px !important;
+}
+
+.goDwonButton {
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    border-radius: 50px;
+    transform: translate(-50%, -50%);
+    width: 84px !important;
+    height: 84px;
+    line-height: 5.2rem;
+    cursor: pointer;
+}
+
+.imageText {
+    background-color: #111117;
+    color: white !important;
+    padding: 100px 0px;
+    height: 100vh;
+    z-index: 1;
+}
+
+.imageText p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.imageText span {
+    font-weight: 700;
+}
+
+.imageText .imageTextHood {
+    font-size: 46px;
+    font-weight: 800;
+    text-align: start;
+}
+
+.image-gallery {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.imageIcon {
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.soldOut {
+    background-color: #080808;
+    z-index: 1;
+    position: relative;
+}
+
+.soldOutMainArea {
+    padding: 50px 0px;
+}
+
+.soldOutTextArea {
+    text-align: center;
+}
+
+.soldOutTextArea p {
+    color: white;
+}
+
+.soldOutTextArea p:first-child {
+    font-size: 46px;
+    color: white;
+}
+
+.soldOutTextArea p:last-child {
+    font-size: 36px;
+    color: white;
+}
+
+.littleText {
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
+.increaseReduce {
+}
+
+.sliderHood {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #baf772;
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-indent: 0;
+    text-transform: uppercase;
+}
+
+.sliderText {
+    width: 750px;
+    margin-bottom: 50;
+    color: #ebffe0;
+    font-size: 3em;
+    line-height: 120%;
+    font-weight: 600;
+    text-align: center;
+}
+
+.sliderOWL {
+    background-color: #210e3f;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.t-webkit-center {
+    text-align: -webkit-center;
+}
+
+.popUpHood {
+    font-size: 46px;
+    color: white;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.faq {
+    background-color: #111117;
+    padding: 100px 0px;
+    z-index: 1;
+    margin-bottom: 270px;
+    box-shadow: -1px 1px 20px 0px black;
+}
+
+.questionLine {
+    padding: 10px 0px;
+    border-bottom: 1px solid white;
+}
+
+.questionLine a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+
+.popUpText {
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+}
+
+.questionLine a:hover {
+    text-decoration: none;
+    color: rgb(189, 187, 187);
+}
+
+.teknoRoyal {
+    background-color: #080808;
+    z-index: 1;
+}
+
+.teknoRoyal .tekRoHood {
+    color: white;
+    font-size: 46px;
+}
+
+.liProperty {
+    color: white !important;
+    font-size: 16px;
+}
+
+.loadPage {
+    position: fixed;
+    background-image: url("../img/loadPageBackGround.jpg");
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+    z-index: 999;
+    top: 0px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+body  {
+    overflow: hidden;
+}
+
+.teknoRoyal ol {
+    list-style-type: disc;
+}
+
+.roadMap {
+    background-color: #080808 !important;
+    position: relative;
+}
+
+.roadMapImage {
+  background-image: url("../img/roapmap\ mantarsız.jpg");
+  filter: blur(8px);
+  height: 800px; 
+  background-position: top;
+  background-repeat: no-repeat;
+  background-position: 0px -550px;
+  background-size: cover;
+}
+
+.mantar {
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    top: 864px;
+    left: 50%;
+    cursor: pointer;
+}
+
+.roadMapButton {
+    color: white;
+    appearance: none;
+    color: white;
+    padding: 4px 50px;
+    font-size: 26px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    background: rgb(210, 64, 52);
+    overflow: hidden;
+    transition: all 2s ease 0s;
+    outline: none;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.roadMapButton:hover {
+    background-color: rgb(126, 40, 32);
+}
+
+.imgTeamArea {
+    position: relative;
+    height: 350px;
+    cursor: pointer;
+}
+
+.teamNameCreative {
+    font-size: 36px;
+    font-weight: 800;
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.teamNameCreativeTwo {
+    font-size: 36px;
+    font-weight: 800;
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.teamNameCreativeThree {
+    font-size: 36px;
+    font-weight: 800;
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.teamNameCreativeFour {
+    font-size: 36px;
+    font-weight: 800;
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.teamNameCreativeFive {
+    font-size: 36px;
+    font-weight: 800;
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.teamNameCreativeSix {
+    font-size: 36px;
+    font-weight: 800;
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.teamNameCreativeSeven {
+    font-size: 36px;
+    font-weight: 800;
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+
+
+
+.firstImageTeam {
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    z-index: 3;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.secondImageTeam {
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.ThirtImageTeam {
+    width: 300px;
+    height: 300px;
+    z-index: 2;
+    position: absolute;
+    top: 112px;
+    right: 20px;
+}
+
+.pictureHood {
+    font-size: 16px;
+    font-weight: 800;
+    color: white;
+}
+
+.skyBackground {
+    background-color: white;
+    width: 420px;
+    height: 314px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.skyBackground img {
+    max-width: 400px;
+    max-height: 274px;
+}
+
+.iconArea {
+    padding: 50px 0px;
+    background-color: #080808;
+    z-index: 1;
+}
+
+.iconHood {
+    font-size: 30px;
+    color: white;
+    font-weight: 800;
+}
+
+.iconText {
+    font-size: 22px;
+    color: white;
+}
+
+#changeImage {
+    background-color: #696969;
+    border-radius: 10px;
+    outline: 0px;
+    padding: 10px 20px;
+    border: 0px;
+    color: white;
+    color: white !important;
+    font-size: 26px;
+}
+
+.iconCard {
+    cursor: pointer;
+    display: flex;
+    overflow: scroll;
+    width: 240px;
+    height: 260px;
+    border-radius: 16px;
+    position: relative;
+    overflow: hidden;
+}
+
+.owl-carousel .owl-item img {
+    border-radius: 100px;
+}
+
+.iconImage {
+    width: 240px;
+    height: 260px;
+    border-radius: 16px 0px 0px 16px;
+}
+
+.firstCard {
+    position: relative;
+    width: 240px;
+    height: 260px;
+}
+
+.iconCardHood {
+    font-size: 20px;
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+    color: white;
+    font-weight: 800;
+}
+
+.iconcardDiv {
+    position: absolute;
+}
+
+.iconCardText {
+    font-size: 14px;
+}
+
+.iconCardtextArea {
+    width: 240px;
+    height: 260px;
+    border-radius: 0px 16px 16px 0px;
+    background-color: white;
+    padding: 20px;
+    position: absolute;
+    left: 240px;
+    top: 0px;
+}
+
+.iconCardHoodTwo {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+footer {
+    background-color: #282836;
+    padding: 30px 0px;
+    height: 300px;
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+    bottom: 0px;
+}
+
+footer .logoAreafooter {
+    text-align: center;
+}
+
+footer .logoAreafooter img {
+    width: 150px;
+    height: 150px;
+}
+
+footer .socialMediaArea {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+footer .socialMediaArea img {
+    width: 2em;
+    animation: rotateSocialMedia;
+    animation-duration: 2s;
+    margin-bottom: 20px;
+}
+
+.twitter {
+    width: 30px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+.discort {
+    width: 30px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.socialmedia {
+    display: flex;
+    gap: 20px;
+}
+
+footer p:first-child {
+    color: rgb(58, 157, 180);
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+footer p:last-child {
+    font-size: 12px;
+    color: white;
+}
+
+#resimler {
+    position: relative;
+    bottom: 85px;
+}
+
+#resimler img {
+    width: 130px;
+    height: 134px;
+    position: absolute;
+}
+
+#resimler img:first-child {
+    left: 350px;
+}
+
+#resimler img:nth-child(2) {
+    left: 310px;
+}
+
+#resimler img:nth-child(3) {
+    left: 270px;
+}
+
+#resimler img:nth-child(4) {
+    left: 230px;
+}
+
+#resimler img:nth-child(5) {
+    left: 190px;
+}
+
+#resimler img:nth-child(6) {
+    right: 350px;
+}
+
+#resimler img:nth-child(7) {
+    right: 310px;
+}
+
+#resimler img:nth-child(8) {
+    right: 270px;
+}
+
+#resimler img:nth-child(9) {
+    right: 230px;
+}
+
+#resimler img:nth-child(10) {
+    right: 190px;
+}
+
+#sayButton {
+    width: 80px;
+    background-color: #080808;
+    border: 0px;
+    font-size: 36px;
+    color: grey;
+    text-align: center;
+}
+
+.kurb {
+    top: 25px;
+}
+
+.akk {
+    top: 10px;
+}
+
+
+.tar {
+    top: 14px;
+}
+
+.sol {
+    top: 20px;
+}
+
+.sol {
+    top: 14px;
+}
+
+
+.ciy {
+    top: 0px;
+}
+
+.horror-text {
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-name: flickering;
+    animation-timing-function: step-start;
+    color: #912914;
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 45px;
+    font-weight: 800;
+    transform: rotate(26deg) !important;
+  }
+
+.minusImage {
+    font-size: 42px;
+    color: white;
+    background-color: transparent;
+    border: 0px;
+    outline: 0px;
+}
+
+.plusImage {
+    font-size: 42px !important;
+    color: white;
+    background-color: transparent;
+    border: 0px;
+    outline: 0px;
+}
+
+#sayiButton {
+    width: 80px;
+    background-color: transparent;
+    border: 0px;
+    font-size: 36px;
+    color: grey;
+    text-align: center;
+    cursor: unset;
+}
+
+.center {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+@media only screen and (max-width: 1199px) {
+    header {
+        background-size: cover;
+    }
+
+    .imageIcon {
+        width: 150px;
+        height: 150px;
+        border-radius: 30px;
+    }
+
+    .imageText .imageTextHood {
+        font-size: 40px;
+    }
+
+    .imageText p {
+        font-size: 16px;
+    }
+
+    .soldOutTextArea p:first-child {
+        font-size: 40px;
+    }
+
+    .soldOutTextArea p:last-child {
+        font-size: 30px;
+    }
+}
